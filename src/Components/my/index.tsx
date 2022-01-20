@@ -17,7 +17,7 @@ const Index = (props: Props) => {
       plusTimer.current = setTimeout(() => {
         setData((prev) => prev + 1);
         doPlus();
-      }, 100);
+      }, 150);
     };
     doPlus();
   };
@@ -33,7 +33,7 @@ const Index = (props: Props) => {
       minusTimer.current = setTimeout(() => {
         setData((prev) => prev - 1);
         doMinus();
-      }, 100);
+      }, 150);
     };
     doMinus();
   };
